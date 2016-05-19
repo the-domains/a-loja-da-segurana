@@ -1,14 +1,26 @@
-layout_spectrum: 0.5129495398141444
-typography_spectrum: 0.45489831967279315
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.4548983196727931
 color:
-  brandStrength: 0.8983300337567925
-  lightness: 0.7523478192742914
   saturation: 0.8398892090190202
-  rhythmicContrast: 0.14002407272346318
+  brandStrength: 0.8983300337567925
+  rhythmicContrast: 0.1400240727234632
   brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
+    - '#FF8000'
+    - '#FFD933'
+    - '#CCCC52'
+    - '#8FB359'
+    - '#192B33'
+  lightness: 0.7523478192742914
+layout_spectrum: 1
 name: A Loja da Segurança
